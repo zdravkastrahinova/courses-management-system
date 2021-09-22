@@ -52,6 +52,15 @@
     </div>
 
 </div>
+
+<hr />
+
+<div>
+    @Html.ActionLink("Rate course", "Rate", "Ratings", new { courseId = Model.Id })
+</div>
+
+<hr />
+
 <div>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
     <a asp-action="List">Back to courses</a>

@@ -309,3 +309,4 @@ D:\Projects\vs-projects\courses-management-system\CourseManagementSystem\CourseM
 D:\Projects\vs-projects\courses-management-system\CourseManagementSystem\CourseManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Courses\List.cshtml.g.cs
 D:\Projects\vs-projects\courses-management-system\CourseManagementSystem\CourseManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Courses\Edit.cshtml.g.cs
 D:\Projects\vs-projects\courses-management-system\CourseManagementSystem\CourseManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Courses\Details.cshtml.g.cs
+D:\Projects\vs-projects\courses-management-system\CourseManagementSystem\CourseManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Ratings\Rate.cshtml.g.cs

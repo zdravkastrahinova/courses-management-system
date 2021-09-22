@@ -33,9 +33,11 @@ namespace CourseManagementSystem
 
             services.AddScoped<ICategoriesRepository, CategoriesRepository>();
             services.AddScoped<ICoursesRepository, CoursesRepository>();
+            services.AddScoped<IRatingsRepository, RatingsRepository>();
 
             services.AddScoped<ICategoriesService, CategoriesService>();
             services.AddScoped<ICoursesService, CoursesService>();
+            services.AddScoped<IRatingsService, RatingsService>();
 
             services.AddControllersWithViews();
         }

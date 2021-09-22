@@ -57,9 +57,14 @@ namespace CourseManagementSystem.Repositories.Implementations
 
         public void Delete(int id)
         {
-            Course course = dbSet.Include(c => c.CategoryCourses).FirstOrDefault(c => c.Id == id);
+            Course course = dbSet
+                .Include(c => c.Ratings)
+                .Include(c => c.CategoryCourses)
+                .FirstOrDefault(c => c.Id == id);
 
+            context.Ratings.RemoveRange(course.Ratings);
             context.CategoryCourses.RemoveRange(course.CategoryCourses);
+
             dbSet.Remove(course);
 
             context.SaveChanges();

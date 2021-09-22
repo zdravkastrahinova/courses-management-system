@@ -32,7 +32,7 @@ namespace CourseManagementSystem.Services.Implementations
                     Title = course.Title,
                     Description = course.Description,
                     PublishDate = course.PublishDate,
-                    Rating = course.Ratings.Count == 0 ? 0 : course.Ratings.Select(rating => rating.Rate).Average()
+                    Rating = course.Ratings.Count == 0 ? 0 : Math.Round(course.Ratings.Select(rating => rating.Rate).Average(), 2)
                 })
                 .ToList();
         }
@@ -57,7 +57,7 @@ namespace CourseManagementSystem.Services.Implementations
                 Title = course.Title,
                 Description = course.Description,
                 PublishDate = course.PublishDate,
-                Rating = course.Ratings.Count == 0 ? 0 : course.Ratings.Select(rating => rating.Rate).Average(),
+                Rating = course.Ratings.Count == 0 ? 0 : Math.Round(course.Ratings.Select(rating => rating.Rate).Average(), 2),
                 Categories = course.CategoryCourses
                     .Select(cc => new CategoryDetailsViewModel
                     {
