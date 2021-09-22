@@ -8555,11 +8555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\vs-projects\\CourseManagementSystem\\CourseManagementSystem\\CourseManagementSystem.csproj",
+      "projectUniqueName": "D:\\Projects\\vs-projects\\courses-management-system\\CourseManagementSystem\\CourseManagementSystem\\CourseManagementSystem.csproj",
       "projectName": "CourseManagementSystem",
-      "projectPath": "D:\\Projects\\vs-projects\\CourseManagementSystem\\CourseManagementSystem\\CourseManagementSystem.csproj",
+      "projectPath": "D:\\Projects\\vs-projects\\courses-management-system\\CourseManagementSystem\\CourseManagementSystem\\CourseManagementSystem.csproj",
       "packagesPath": "C:\\Users\\zdrav\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\vs-projects\\CourseManagementSystem\\CourseManagementSystem\\obj\\",
+      "outputPath": "D:\\Projects\\vs-projects\\courses-management-system\\CourseManagementSystem\\CourseManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8628,7 +8628,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

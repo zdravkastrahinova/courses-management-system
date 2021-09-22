@@ -28,6 +28,19 @@ namespace CourseManagementSystem.Services.Implementations
                 .ToList();
         }
 
+        public List<SelectableCategoryViewModel> GetSelectableCategories()
+        {
+            return repository
+                .GetCategories()
+                .Select(category => new SelectableCategoryViewModel
+                {
+                    Id = category.Id,
+                    Name = category.Name,
+                    IsSelected = false
+                })
+                .ToList();
+        }
+
         public CategoryEditViewModel GetById(int id)
         {
             Category category = repository.GetById(id);

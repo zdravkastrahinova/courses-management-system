@@ -32,8 +32,10 @@ namespace CourseManagementSystem
                 options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<ICategoriesRepository, CategoriesRepository>();
+            services.AddScoped<ICoursesRepository, CoursesRepository>();
 
             services.AddScoped<ICategoriesService, CategoriesService>();
+            services.AddScoped<ICoursesService, CoursesService>();
 
             services.AddControllersWithViews();
         }

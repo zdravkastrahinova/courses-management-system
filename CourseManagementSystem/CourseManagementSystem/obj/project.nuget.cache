@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wqGGtYbZqCHniG19H/juPxwgJPjJ44L2w5lVcgSdHD1P3zfnBW7QV6GQIGHQ+qMM1NS1i3UngPYZgM+r1ROUfw==",
+  "dgSpecHash": "C6dakZqcOHqUTWp/IacfUutBxrYNB9p5NysXy16DTlLb6HVlBUtjedJB5zU51TJ5xU5ut08otttwvpuzulzOcg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\vs-projects\\CourseManagementSystem\\CourseManagementSystem\\CourseManagementSystem.csproj",
+  "projectFilePath": "D:\\Projects\\vs-projects\\courses-management-system\\CourseManagementSystem\\CourseManagementSystem\\CourseManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zdrav\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
